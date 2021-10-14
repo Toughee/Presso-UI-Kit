@@ -42,7 +42,7 @@ node_modules/
 jspm_packages/
 build/
 .history/
-storybook/-static/
+storybook-static/
 
 # TypeScript v1 declaration files
 typings/
