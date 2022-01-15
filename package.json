@@ -19,7 +19,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "fullpr": "git add .&&git commit&&git push&&git merge",
-    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'"
+    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
+    "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix"
   },
   "eslintConfig": {
     "extends": [
@@ -50,12 +51,12 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.3.7",
-    "@storybook/addon-essentials": "^6.3.7",
-    "@storybook/addon-links": "^6.3.7",
-    "@storybook/node-logger": "^6.3.7",
+    "@storybook/addon-actions": "^6.4.13",
+    "@storybook/addon-essentials": "^6.4.12",
+    "@storybook/addon-links": "^6.4.13",
+    "@storybook/node-logger": "^6.4.13",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.7",
+    "@storybook/react": "^6.4.12",
     "gh-pages": "^3.2.3"
   }
 }
